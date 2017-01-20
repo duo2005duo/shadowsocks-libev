@@ -10,7 +10,7 @@ ARG SS_URL=https://github.com/shadowsocks/shadowsocks-libev/archive/v$SS_VER.tar
 
 ENV SERVER_ADDR 0.0.0.0
 ENV SERVER_PORT 8388
-ENV PASSWORD=   duo2005duo
+ENV PASSWORD    duo2005duo
 ENV METHOD      rc4-md5
 ENV TIMEOUT     300
 ENV DNS_ADDR    8.8.8.8
