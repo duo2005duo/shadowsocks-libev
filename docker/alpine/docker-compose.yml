@@ -1,11 +1,3 @@
-version: '1.0'
-steps:
-  BuildingDockerImage:
-    title: Building Docker Image
-    type: build
-    image_name: duo2005duo/shadowsockslibev
-    working_directory: ./
-    dockerfile: docker/alpine/Dockerfile
 shadowsocks:
   image: shadowsocks-libev
   ports:
